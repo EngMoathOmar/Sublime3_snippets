@@ -1,0 +1,38 @@
+<snippet>
+    <content><![CDATA[
+(function () {
+    "use strict";
+    /**
+    * $1 Controller 
+    * @author FootHillSolutions
+    */
+    angular
+    	.module('$2')
+        .controller('$1', $1);
+
+        $1.\$inject = ['\$scope', '\$http','\$state'];
+
+
+        function $1(\$scope, \$http,\$state) {
+            // uncomment the next line to use vm instead of $scope
+            // var $scope = vm;
+            /* Init variables ... */ 
+    			
+
+            /*init kendo Components ... */
+            
+            $scope.initFunction = function () {
+                return true;
+            };
+            $scope.initFunction();
+        }
+})();
+
+	]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>fhscont</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>f-h-controller</description>
+</snippet>

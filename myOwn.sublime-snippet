@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/**
+* 	@desc : $1
+*	@param : {$2} -$3
+*	@created: $4 
+*	@author: Moath Omar
+*/
+    ]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>ann</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>annotate</description>
+</snippet>

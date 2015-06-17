@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+(function () {
+    "use strict";
+    /**
+    * $1 Module
+    * @author FootHillSolution
+    */
+    angular
+    	.module('$1',[$2]);
+})();
+
+	]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>fhsmodule</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>ng-module</description>
+</snippet>
