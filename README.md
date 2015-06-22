@@ -1,7 +1,7 @@
 # Sublime3_snippets
 some code snippets for sublime 
-just paste them in your 
-C:\Users\%YOURUSERFOLDER%\AppData\Roaming\Sublime Text 3\Packages\User
+just paste them in your <br />
+<h4> C:\Users\%YOURUSERFOLDER%\AppData\Roaming\Sublime Text 3\Packages\User </h4>
 to change /edit any snippet ... 
 <code>
 <snippet>
