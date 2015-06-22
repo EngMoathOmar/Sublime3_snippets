@@ -2,10 +2,11 @@
 some code snippets for sublime 
 
 to change /edit any snippet ... 
+<code>
 <snippet>
     <content><![CDATA[
     
-   # PUT Content Here, $1,3, stand for tap index
+   # <h4 >PUT Content Here, $1,3, stand for tap index </h4>
 /**
 * @desc : $1
 *	@param : {$2} -$3
@@ -14,9 +15,10 @@ to change /edit any snippet ...
 */
     ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>#your trigger/shortcut goes here</tabTrigger>
+    <tabTrigger><h4>your trigger/shortcut goes here</h4></tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js</scope>
     <!-- Optional: Description to show in the menu -->
     <description>#discreption</description>
 </snippet>
+</code>
