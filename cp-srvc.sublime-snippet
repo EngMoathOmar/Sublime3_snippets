@@ -1,0 +1,38 @@
+<snippet>
+    <content>
+<![CDATA[
+(function () {
+    "use strict";
+    /**
+    *  $1 Service : $3 
+    * @author FootHillSolutions
+    */
+    angular
+    	.module('RuhmApp.services')
+        .factory('$1', $1);
+
+        $1.\$inject = ['\$http','logger'];
+
+
+        function $1(\$http,logger) {
+           
+            var service = {
+                $2:$2
+            };
+            
+            return service;
+            function $2(){
+                // \$http.get()
+                return {};
+            }
+
+        }
+})();
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>cp-service</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>c-b-ngcontroller</description>
+</snippet>

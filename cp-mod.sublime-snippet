@@ -3,19 +3,18 @@
 (function () {
     "use strict";
     /**
-    * Constans For $1 Module
+    * $1 Module
     * @author FootHillSolution
     */
     angular
-    	.module('$1')
-        .constant('$2',$3);
+    	.module('$1',[$2]);
 })();
 
 	]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>fhsconst</tabTrigger>
+    <tabTrigger>cp-module</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>ng-const</description>
+    <description>ng-module</description>
 </snippet>

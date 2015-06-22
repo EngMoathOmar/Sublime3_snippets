@@ -1,14 +1,14 @@
 <snippet>
     <content><![CDATA[
-function () {
+(function () {
 	/**
-	* $3 Module
+	* $1 Widget
 	*
 	* Description
 	* @author FootHillSolutions
 	*/
 	angular
-		.module('$3')
+		.module('RuhmApp.widgets')
 		.directive('$1', $1);
 
 		$1.\$inject = ['$3'];
@@ -20,25 +20,25 @@ function () {
 			// terminal: true,
 
 			//scope: {}, // {} = isolate, true = child, false/undefined = no change
-			// controller: function($scope, $element, $attrs, $transclude) {},
+			// controller: function(\$scope, \$element, \$attrs, \$transclude) {},
 			// require: 'ngModel', // Array = multiple requires, ? = optional, ^ = check parent elements
 			//restrict: 'AE', // E = Element, A = Attribute, C = Class, M = Comment
 			// template: '',
-			templateUrl:  '$3.html',
+			templateUrl:  $3+'$2.html',
 			//replace: true,
 			//transclude: true,
 			// compile: function(tElement, tAttrs, function transclude(function(scope, cloneLinkingFn){ return function linking(scope, elm, attrs){}})),
 			link: linkFunction
 		};
 
-		function linkFunction($scope, iElm, iAttrs, controller) {
+		function linkFunction(\$scope, iElm, iAttrs, controller) {
 				
 		}
 	}
 })();
 	]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>fhs-ngdirective</tabTrigger>
+    <tabTrigger>cp-directive</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js</scope>
     <!-- Optional: Description to show in the menu -->

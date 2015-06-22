@@ -7,32 +7,33 @@
     * @author FootHillSolutions
     */
     angular
-    	.module('$2')
+    	.module('RuhmApp.controllers')
         .controller('$1', $1);
 
-        $1.\$inject = ['\$scope', '\$http','\$state'];
+        $1.\$inject = ['\$http','\$state','\$stateParams','logger'];
 
 
-        function $1(\$scope, \$http,\$state) {
-            // uncomment the next line to use vm instead of $scope
-            // var $scope = vm;
-            /* Init variables ... */ 
+        function $1(\$http,\$state,\$stateParams,logger) {
+           
+            var vm = this;
+            /* variables ... */ 
     			
 
             /*init kendo Components ... */
+
+            /* methods goes here */
             
-            $scope.initFunction = function () {
+            vm.initFunction = function () {
                 return true;
             };
-            $scope.initFunction();
+            vm.initFunction();
         }
 })();
-
-	]]></content>
+]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>fhscont</tabTrigger>
+    <tabTrigger>cp-controller</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>source.js</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>f-h-controller</description>
+    <description>c-b-ngcontroller</description>
 </snippet>

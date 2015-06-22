@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+$1DropDownKendoOption = {
+                dataTextField: "$3",
+                dataValueField: "$4",
+                optionLabel: "$5",
+                dataSource: $2
+            };
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>cp-kdropdownoption</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>c-b-k-dropdown</description>
+</snippet>
