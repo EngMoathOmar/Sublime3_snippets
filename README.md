@@ -5,16 +5,18 @@ just paste them in your <br />
 to change /edit any snippet ... 
 <code>
 <snippet>
-    <content><![CDATA[
+    ```
+    <content>
+    ```
     
-   # <h4 >PUT Content Here, $1,3, stand for tap index </h4>
+   `` <h4 >PUT Content Here, $1,3, stand for tap index </h4> ``
 /**
 * @desc : $1
 *	@param : {$2} -$3
 *	@created: $4 
 *	@author: Moath Omar
 */
-    ]]></content>
+    </content>
     <!-- Optional: Tab trigger to activate the snippet -->
     <tabTrigger><h4>your trigger/shortcut goes here</h4></tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
