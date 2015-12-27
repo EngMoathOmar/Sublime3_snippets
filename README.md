@@ -1,14 +1,14 @@
 # Sublime3_snippets
 some code snippets for sublime 
 just paste them in your <br />
-<h4> C:\Users\%YOURUSERFOLDER%\AppData\Roaming\Sublime Text 3\Packages\User </h4>
+<h4> C:\Users\%YOUR_USER_FOLDER%\AppData\Roaming\Sublime Text 3\Packages\User </h4>
 to change /edit any snippet ... 
  ```
 <snippet>
     <content>
     
    
-   <h4 >PUT Content Here, $1,3, stand for tap index </h4>
+   //PUT Content Here, $1,3, stand for tap index
 /**
 * @desc : $1
 *	@param : {$2} -$3
